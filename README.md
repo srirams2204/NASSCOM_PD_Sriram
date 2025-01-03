@@ -35,4 +35,18 @@ Run the shell script to install the dependencies.
 ./openEDA_dependencies.sh
 ```
 
+## Introduction
+The RTL-to-GDSII flow is a complete digital ASIC design process that converts a high-level hardware description (RTL) into a final layout (GDSII) ready for fabrication. OpenLANE, an open-source automated flow, simplifies this process by integrating multiple tools for synthesis, floorplanning, placement, clock tree synthesis, routing, and signoff verification.
+
+The Sky130 PDK (Process Design Kit) is an open-source 130nm technology node provided by SkyWater Technology, allowing designers to implement real-world silicon designs without proprietary restrictions. OpenLANE leverages several powerful open-source tools, including Yosys for logic synthesis, OpenROAD for physical design automation, Magic for layout visualization, Netgen for LVS (Layout vs. Schematic) verification, OpenSTA for static timing analysis, and NGspice for circuit simulation.
+
+This open-source RTL-to-GDSII flow enables designers, researchers, and students to create and optimize ASIC designs efficiently, making custom silicon design more accessible and cost-effective.
+
+
+
+
+
+
+
+
 
