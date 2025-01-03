@@ -25,10 +25,12 @@ However, for a local use of the open source tools a set of instructions are to b
 After setting up the Ubuntu OS, the necessary dependencies must be installed before proceeding with the installation of the EDA tools. 
 To install the dependencies run the command :
 ### Enable execution permission
+Before running a shell script, ensure that it has the appropriate permissions to be executed.
 ```bash
 chmod +x openEDA_dependencies.sh
 ```
 ### Execution of Shell script 
+Run the shell script to install the dependencies.
 ```bash
 ./openEDA_dependencies.sh
 ```
