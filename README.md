@@ -24,6 +24,6 @@ However, for a local use of the open source tools a set of instructions are to b
 After setting up the Ubuntu OS, the necessary dependencies must be installed before proceeding with the installation of the EDA tools. 
 To install the dependencies run the command :
 ```bash
-  chmod +x openEDA_dependencies.sh
-  ./openEDA_dependencies.sh
-  ```
+chmod +x openEDA_dependencies.sh
+./openEDA_dependencies.sh
+```
