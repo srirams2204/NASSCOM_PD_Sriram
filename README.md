@@ -1,6 +1,9 @@
 # NASSCOM_PD_Sriram
 
 ## Table of Contents
+- [Overview](#overview)
+- [Pre requisite](#Prerequisite)
+- [Introduction](#Introduction)
 - [Day - 1 Inception of Open-Source EDA, OpenLane and Sky130 PDK](#day---1-inception-of-open-source-eda-openlane-and-sky130-pdk)
 - [Day - 2 Good Floor plan Vs Bad floorplan & intro to Library Cells](#day---2-good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
 - [Day - 3 Design Library Cells using Magic Layout and Ngspice Characterization](#day--3-design-library-cell-using-magic-layout-and-ngspice-charcterization)
@@ -9,33 +12,4 @@
 - [Acknowledgement](#acknowledgement)
 - [References](#references)
 
-# Table of contents
-
-- [Overview](#overview)
-- [Pre requisite](#Prerequisite)
-- [Introduction](#Introduction)
-- [Day 1 Inception and introduction of openlane tool openLANE and skywater 130 nm](#day)
-  - [Introduction to QFN -48 package, chip, pads, core, die, IPs](#Imtro)
-  - [Introduction to RISCV](#RiscV)
-  - [OpenLANE design ASIC flow](#soc)
-  - [Part -2 Get familiar with EDA tools](#familiar)   
-  - [Invoking openLANE](#invoking)
-  - [Import package](#import)
-  -[Prepare design](#prepare)
-- [Day 2 Floorplan and placement](#Day2)
-  - [Floorplan](#Floorplan)
-  - [Cell core and die area](#Cell)
-  - [Aspect ratio and utilization factor](#Aspect)
-  - [Concept of pre placed cells](#Concept)
-  - [Decoupling capacitors](#Decoupling)
-  - [Power planning](#Power)
-  - [Pin placement](#Pin)
-  - [Cell design flow and characterization](#designn)
-- [Day 3 Design library cells and ngspice characterization](#Day3)
-  - [Design library cells](#Designing)
-  - [Spice deck extraction from magic](#Spice)
-  - [DRC check](#DRC)
-- [Day 4 Pre layout timing analysis and clock tree synthesis](#Pre)
-  - [LEF file](#lef)
-  - [Fixing slack violations](#slack)
   
