@@ -20,4 +20,10 @@ OpenLane Github Repository - https://github.com/efabless/openlane
 
 ## Prerequisite
 The only requirement for the workshop is a registered email ID. VSD-IAT is a well-designed cloud training platform with no time zone restrictions. The workshop is structured to help participants freely use open-source tools for their own designs even after it ends.
-However, for a local use of the open source tools a set of instructions are to be followed for proper installation of all required tools. The basic requirement is a linux-based operating system, preferably the Ubuntu OS as it is user friendly compared to other linux distributions. The minimum space to setup the Ubuntu OS is 20GB but i would recommend alloting a minimimum of 80GB inclucding the open source tools.
+However, for a local use of the open source tools a set of instructions are to be followed for proper installation of all required tools. The basic requirement is a linux-based operating system, preferably the Ubuntu OS as it is user friendly compared to other linux distributions. The minimum space to setup the Ubuntu OS is 20GB but i would recommend alloting a minimimum of 80GB to install all the open source tools and dependencies for them.
+After setting up the Ubuntu OS, the necessary dependencies must be installed before proceeding with the installation of the EDA tools. 
+To install the dependencies run the command :
+```bash
+  chmod +x openEDA_dependencies.sh
+  ./openEDA_dependencies.sh
+  ```
