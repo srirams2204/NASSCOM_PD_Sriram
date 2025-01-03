@@ -12,4 +12,7 @@
 - [Acknowledgement](#acknowledgement)
 - [References](#references)
 
-  
+## Overview
+This repository documents the Digital VLSI SoC Design and Planning course, a two-week program conducted by VSD-IAT. The course focuses on advanced physical design using open-source EDA tools like OpenLANE and the Sky130 PDK. In this workshop VSD provides overall training through interactive tutorials on the fundamentals of physical design as well as in hand experience on the use of the openLANE/sky130 flow.
+The course covers OpenLANE, an automated RTL-to-GDSII flow that integrates various open-source tools like OpenROAD, Yosys, Magic, Netgen, NGspice, and OpenSTA. It enables a complete ASIC implementation process, from RTL to GDSII.
+OpenLane Github Repository - https://github.com/efabless/openlane
