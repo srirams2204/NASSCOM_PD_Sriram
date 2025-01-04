@@ -81,6 +81,16 @@ Every software application we use in our everyday lives depends on hardware to f
 ### OpenLane Design Directory
 <img src="https://github.com/user-attachments/assets/ed81b898-f228-49fa-8ded-90f8ba3dfce0" width="800" style="border-radius: 10px">
 
+### Sky130 PDK Directory
+<img src="https://github.com/user-attachments/assets/f12b1451-a305-4e98-a511-4bedfe3b065a" width="800" style="border-radius: 10px">
+
+### OpenLane Docker Initialization
+<img src="https://github.com/user-attachments/assets/b2085592-6ada-40ae-a887-e45f17dbc9b3" width="800" style="border-radius: 10px">
+
+
+
+
+
 
 
 
