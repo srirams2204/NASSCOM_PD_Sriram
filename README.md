@@ -128,12 +128,19 @@ Flop Ratio = Number of D-FF / Number of Cells = 0.108
 <div align="center">
   <img src="https://github.com/user-attachments/assets/7011cdb2-1877-422c-bbaf-07cf7d761f3a" width="400">
 </div>
-**Core utilization** refers to the percentage of the core area in a chip that is occupied by logic gates and circuits. It indicates how efficiently the available space is used in the design. Higher utilization means more components are packed in, while lower utilization leaves more empty space for routing and cooling. Optimizing core utilization helps balance performance, power, and manufacturability.
+**Core utilization Factor** refers to the percentage of the core area in a chip that is occupied by logic gates and circuits. It indicates how efficiently the available space is used in the design. Higher utilization means more components are packed in, while lower utilization leaves more empty space for routing and cooling. Optimizing core utilization helps balance performance, power, and manufacturability.
+
+$$ \Huge \text{Core Utilization Factor} = \left( \frac{\text{Area occupied by logic}}{\text{Total core area}} \right) \times 100 $$
+
+The **Aspect Ratio** of a chip refers to the ratio of its width to its height. It is a critical factor in chip design, as it affects the layout, performance, and manufacturability of the integrated circuit (IC). A balanced aspect ratio ensures efficient use of space, optimal routing, and thermal management. If the aspect ratio is too high or too low, it can lead to complications such as longer interconnections, increased power consumption, and difficulties in cooling. Designers typically aim for an aspect ratio that allows for a compact layout while maintaining a good balance between functionality and manufacturability.
+
+$$ \Huge \text{Aspect Ratio} = \frac{\text{Core width}}{\text{Core height}} $$
 
 
-```bash
-Core Utilization (%) = (Area_occupied_by_logic / Total_core_area) × 100 
-```
+
+
+
+
 
 
 
