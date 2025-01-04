@@ -102,11 +102,20 @@ prep -design picorv32a
 <img src="https://github.com/user-attachments/assets/e32383fb-b609-4a35-ba71-97bfbb18c7ed" width="800" style="border-radius: 10px">
 
 ### OpenLane RTL Synthesis
-Yoysis & abc RTL synthesis
+RTL synthesis using Yoysis & abc
 ```bash
 run_synthesis
 ```
 <img src="https://github.com/user-attachments/assets/9da21fd4-aa5a-4efc-a3ed-a02f87296047" width="800" style="border-radius: 10px">
+```bash
+Number of cells = 14876
+Number of D-FF = 1613
+Chip area for module 'picorv32a' = 147712.918400
+Flop Ratio = Number of D-FF / Number of Cells = 0.108
+                                              = 10.8 %
+```
+<img src="https://github.com/user-attachments/assets/b4725a11-34dc-47fd-97cb-f117bb869e16" width="800" style="border-radius: 10px">
+
 
 
 
