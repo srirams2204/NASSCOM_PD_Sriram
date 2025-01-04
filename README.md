@@ -126,8 +126,8 @@ Flop Ratio = Number of D-FF / Number of Cells = 0.108
 
 **The Die** is the physical piece of silicon that contains the entire circuitry of the chip, including one or more cores, memory, input/output (I/O) interfaces, and other supporting components. It is the small, rectangular silicon wafer cut from a larger wafer during the semiconductor manufacturing process. The size of the die depends on the complexity of the design and the technology node used. The die is later packaged into a protective casing with external pins or pads, allowing it to be integrated into electronic devices.
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/7011cdb2-1877-422c-bbaf-07cf7d761f3a" width="400">
-</div>
+  <img src="https://github.com/user-attachments/assets/7011cdb2-1877-422c-bbaf-07cf7d761f3a" width="400"></div>
+
 **Core utilization Factor** refers to the percentage of the core area in a chip that is occupied by logic gates and circuits. It indicates how efficiently the available space is used in the design. Higher utilization means more components are packed in, while lower utilization leaves more empty space for routing and cooling. Optimizing core utilization helps balance performance, power, and manufacturability.
 
 $$ \Huge \text{Core Utilization Factor} = \left( \frac{\text{Area occupied by logic}}{\text{Total core area}} \right) \times 100 $$
@@ -135,6 +135,73 @@ $$ \Huge \text{Core Utilization Factor} = \left( \frac{\text{Area occupied by lo
 The **Aspect Ratio** of a chip refers to the ratio of its width to its height. It is a critical factor in chip design, as it affects the layout, performance, and manufacturability of the integrated circuit (IC). A balanced aspect ratio ensures efficient use of space, optimal routing, and thermal management. If the aspect ratio is too high or too low, it can lead to complications such as longer interconnections, increased power consumption, and difficulties in cooling. Designers typically aim for an aspect ratio that allows for a compact layout while maintaining a good balance between functionality and manufacturability.
 
 $$ \Huge \text{Aspect Ratio} = \frac{\text{Core width}}{\text{Core height}} $$
+
+A **Pre-placed cell** refers to a standard cell or component that is already positioned on the chip layout during the design process, before the placement step in the physical design flow. These cells are often critical components, such as input/output (I/O) pads, power cells, or clock buffers, which are placed manually or semi-automatically in a specific location to meet the design requirements.
+Pre-placing these cells helps ensure proper chip functionality and may also be necessary for meeting certain design constraints like signal integrity, power distribution, or physical area requirements. Once pre-placed, the remaining cells in the design are then placed and routed around these fixed components during the subsequent steps of the design flow.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d1139780-8810-4fe9-bd48-b079f335dcb1" width="400"></div>
+
+**Decoupling capacitors (decaps)** are placed around pre-placed cells in VLSI design to ensure power stability, reduce noise, and mitigate IR drop. These cells, such as clock buffers and power management units, can cause sudden power spikes, and decaps act as local charge reservoirs to prevent voltage drops. They help smooth out fluctuations in the power and ground network, reducing noise and improving signal integrity. By locally storing and supplying charge, decaps minimize IR drop, reduce stress on the global power grid, and enhance overall chip performance and reliability by maintaining stable power delivery and consistent timing.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/bdcf9607-74c8-49a1-b496-c70c6390df53" width="400"></div>
+
+**Power planning** in design ensures efficient power distribution across the chip while minimizing IR drop and electromigration. It involves designing a network of power rails, rings, and grids to deliver stable power to all cells. Proper power planning optimizes performance, reduces noise, and enhances chip reliability.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/380fe84a-f42d-4503-a03f-6bdb6ad773d8" width="400"></div>
+
+**Pin planning** is the process of strategically placing input, output, and power pins to optimize signal flow and power distribution. Proper pin placement minimizes routing congestion, reduces delays, and improves overall performance. It ensures efficient connectivity between different components, enhancing system reliability.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/81eb04b6-846d-4e04-ae97-75ec270370fe" width="400"></div>
+
+### OpenLane Floorplan
+Openlane command for running floorplan
+```bash
+run_floorplan
+```
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2922c325-d8df-4db8-88d4-a45d63d0a13f" width="800"></div>
+
+Calculate Area of Die from Floorplan
+```bash
+LOWER LEFT COORDINATE OF DIE = (0,0)
+UPPER RIGHT COORDINATE OF DIE = (660685,671405)
+DIE AREA = 443,587.21 square microns (µm²)
+```
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/90d926d5-9f00-43bc-87ef-a8c591fbfcb4" width="800"></div>
+
+View Floorplan in Magic Layout
+```bash
+magic -T home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged_unpadded.lef def read picorv32a.floorplan.def
+```
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e6085d7f-7804-42b8-ac2f-abbb17c3962a" width="800"></div>
+
+### Place & Route of Standard Cells
+Place and Route (PnR) is a crucial step in chip design where standard cells and macros are positioned and connected to meet performance, power, and area constraints. Placement involves determining optimal locations for logic cells to minimize wire length and improve timing. Routing then establishes metal interconnections between these cells, ensuring proper signal flow while avoiding congestion and design rule violations. The process includes global and detailed routing, considering factors like power integrity, clock distribution, and signal integrity. Efficient PnR is essential for achieving a well-optimized and manufacturable chip layout.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1d07664b-4879-42ed-a061-c70c90c98727" width="400"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
