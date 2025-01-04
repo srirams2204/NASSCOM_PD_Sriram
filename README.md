@@ -120,7 +120,7 @@ Flop Ratio = Number of D-FF / Number of Cells = 0.108
 ```
 <img src="https://github.com/user-attachments/assets/b4725a11-34dc-47fd-97cb-f117bb869e16" width="800" style="border-radius: 10px">
 
-## Day - 2 Good Floor plan Vs Bad floorplan & intro to Library Cells
+## Day - 2 Good Floorplan Vs Bad Floorplan and Introduction to Library Cells)
 ###  Core & Die of an Integrated Ciruit/Chip
 **The Core** refers to the functional part of the chip where the actual processing takes place. It consists of transistors, logic gates, memory units, and other circuit components that perform computations, data storage, and control functions. In multi-core processors, there are multiple processing cores on a single chip, each capable of executing tasks independently or in parallel. The core is designed based on the required functionality, whether it is a CPU, GPU, FPGA, or ASIC.
 
@@ -130,12 +130,9 @@ Flop Ratio = Number of D-FF / Number of Cells = 0.108
 </div>
 **Core utilization** refers to the percentage of the core area in a chip that is occupied by logic gates and circuits. It indicates how efficiently the available space is used in the design. Higher utilization means more components are packed in, while lower utilization leaves more empty space for routing and cooling. Optimizing core utilization helps balance performance, power, and manufacturability.
 
-<p><strong>Core Utilization Formula:</strong></p>
-<p>
-  \[
-  \text{Core Utilization} (\%) = \left( \frac{\text{Total Area of Standard Cells}}{\text{Total Core Area}} \right) \times 100
-  \]
-</p>
+```math
+Core Utilization (%) = (Area_occupied_by_logic / Total_core_area) × 100 
+```
 
 
 
