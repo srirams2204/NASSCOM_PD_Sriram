@@ -189,6 +189,23 @@ magic -T home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.
 <div align="center">
   <img src="https://github.com/user-attachments/assets/1d07664b-4879-42ed-a061-c70c90c98727" width="400"></div>
 
+### OpenLane Standard Cell Placement
+Cell placement command : 
+```bash
+run_placement
+```
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/998d0c33-c90f-43cd-a7b3-f4da4c5eea5c" width="800"></div>
+
+View Cell Placement in Magic Layout
+```bash
+magic -T home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged_unpadded.lef def read picorv32a.placement.def
+```
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7e2c0b78-e266-4906-ac48-12a52ca6b16e" width="800"></div>
+
+
 
 
 
