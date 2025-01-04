@@ -85,9 +85,20 @@ Every software application we use in our everyday lives depends on hardware to f
 <img src="https://github.com/user-attachments/assets/8222465a-70af-43f3-8d70-6f5ec304bae2" width="800" style="border-radius: 10px">
 
 ### OpenLane Docker Initialization
+```bash
+docker
+```
 <img src="https://github.com/user-attachments/assets/218b5f8f-9596-4ccb-88b4-f23be317c8c8" width="800" style="border-radius: 10px">
 
 ### OpenLane Design Preperation
+Start openlane interactive flow
+```bash
+./flow.tcl -interactive
+```
+Create Design Flow Folders 
+```bash
+prep -design picorv32a
+```
 <img src="https://github.com/user-attachments/assets/e32383fb-b609-4a35-ba71-97bfbb18c7ed" width="800" style="border-radius: 10px">
 
 
