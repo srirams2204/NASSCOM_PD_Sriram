@@ -120,6 +120,16 @@ Flop Ratio = Number of D-FF / Number of Cells = 0.108
 ```
 <img src="https://github.com/user-attachments/assets/b4725a11-34dc-47fd-97cb-f117bb869e16" width="800" style="border-radius: 10px">
 
+## Day - 2 Good Floor plan Vs Bad floorplan & intro to Library Cells
+###  Core & Die of an Integrated Ciruit/Chip
+**The Core** refers to the functional part of the chip where the actual processing takes place. It consists of transistors, logic gates, memory units, and other circuit components that perform computations, data storage, and control functions. In multi-core processors, there are multiple processing cores on a single chip, each capable of executing tasks independently or in parallel. The core is designed based on the required functionality, whether it is a CPU, GPU, FPGA, or ASIC.
+**The Die** is the physical piece of silicon that contains the entire circuitry of the chip, including one or more cores, memory, input/output (I/O) interfaces, and other supporting components. It is the small, rectangular silicon wafer cut from a larger wafer during the semiconductor manufacturing process. The size of the die depends on the complexity of the design and the technology node used. The die is later packaged into a protective casing with external pins or pads, allowing it to be integrated into electronic devices.
+<img src="https://github.com/user-attachments/assets/7011cdb2-1877-422c-bbaf-07cf7d761f3a" width="800" style="border-radius: 10px">
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7011cdb2-1877-422c-bbaf-07cf7d761f3a" width="800">
+</div>
+
+
 
 
 
