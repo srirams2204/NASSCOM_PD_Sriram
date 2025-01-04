@@ -85,7 +85,8 @@ Every software application we use in our everyday lives depends on hardware to f
 <img src="https://github.com/user-attachments/assets/8222465a-70af-43f3-8d70-6f5ec304bae2" width="800" style="border-radius: 10px">
 
 ### OpenLane Docker Initialization
-<img src="https://github.com/user-attachments/assets/b2085592-6ada-40ae-a887-e45f17dbc9b3" width="800" style="border-radius: 10px">
+<img src="https://github.com/user-attachments/assets/218b5f8f-9596-4ccb-88b4-f23be317c8c8" width="800" style="border-radius: 10px">
+
 
 
 
