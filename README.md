@@ -106,7 +106,11 @@ RTL synthesis using Yoysis & abc
 ```bash
 run_synthesis
 ```
+```bash
+run_synthesis
+```
 <img src="https://github.com/user-attachments/assets/9da21fd4-aa5a-4efc-a3ed-a02f87296047" width="800" style="border-radius: 10px">
+
 ```bash
 Number of cells = 14876
 Number of D-FF = 1613
