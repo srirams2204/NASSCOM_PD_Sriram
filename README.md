@@ -66,14 +66,14 @@ Every software application we use in our everyday lives depends on hardware to f
 ### Simplified RTL2GDS flow
 <img src="https://github.com/user-attachments/assets/2b953944-42ef-43d7-8e70-0578063511b4" width="500" style="border-radius: 10px">
 
-**RTL Design (Register Transfer Level)**
-**RTL Synthesis**
-**Floor and Power Planning**
-**Placement**
-**Clock Tree Synthesis**
-**Routing**
-**Sign-off**
-**GDSII File Generation**
+- **RTL Design (Register Transfer Level)**
+- **RTL Synthesis**
+- **Floor and Power Planning**
+- **Placement**
+- **Clock Tree Synthesis**
+- **Routing**
+- **Sign-off**
+- **GDSII File Generation**
 
 
 
