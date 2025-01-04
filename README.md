@@ -76,7 +76,12 @@ Every software application we use in our everyday lives depends on hardware to f
 - **GDSII File Generation**
 
 ### OpenLane Working Directory
-<img src="https://github.com/user-attachments/assets/297c4fa5-e9d5-474a-9bac-efc54127b230" width="500" style="border-radius: 10px">
+<img src="https://github.com/user-attachments/assets/297c4fa5-e9d5-474a-9bac-efc54127b230" width="800" style="border-radius: 10px">
+
+### OpenLane Design Directory
+<img src="https://github.com/user-attachments/assets/ed81b898-f228-49fa-8ded-90f8ba3dfce0" width="800" style="border-radius: 10px">
+
+
 
 
 
