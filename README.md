@@ -130,11 +130,12 @@ Flop Ratio = Number of D-FF / Number of Cells = 0.108
 </div>
 **Core utilization** refers to the percentage of the core area in a chip that is occupied by logic gates and circuits. It indicates how efficiently the available space is used in the design. Higher utilization means more components are packed in, while lower utilization leaves more empty space for routing and cooling. Optimizing core utilization helps balance performance, power, and manufacturability.
 
+
 ```bash
 Core Utilization (%) = (Area_occupied_by_logic / Total_core_area) × 100 
 ```
 
-$$ Core Utilization (%) = {Area_occupied_by_logic \over Total_core_area × 100 } $$
+
 
 
 
