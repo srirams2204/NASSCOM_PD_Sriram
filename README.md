@@ -101,4 +101,12 @@ prep -design picorv32a
 ```
 <img src="https://github.com/user-attachments/assets/e32383fb-b609-4a35-ba71-97bfbb18c7ed" width="800" style="border-radius: 10px">
 
+### OpenLane RTL Synthesis
+Yoysis & abc RTL synthesis
+```bash
+run_synthesis
+```
+<img src="https://github.com/user-attachments/assets/9da21fd4-aa5a-4efc-a3ed-a02f87296047" width="800" style="border-radius: 10px">
+
+
 
