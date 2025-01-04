@@ -64,7 +64,7 @@ Every software application we use in our everyday lives depends on hardware to f
 **PDK (Process Design Kit)** is a collection of files and documentation used in semiconductor design to model a specific fabrication process. It contains the necessary data, models, and parameters that guide the design and ensure that an integrated circuit (IC) can be manufactured according to the foundry's process specifications. The PDK includes technology files, design rules, libraries of standard cells, models for electrical and physical simulations, and other crucial information needed for designing circuits that are compatible with a particular fabrication process. By using a PDK, designers can accurately model the behavior of the IC during the design phase, ensuring that the final product meets the performance, power, and area requirements. Examples of PDKs include Sky130 (an open-source 130nm process), GFU180 (GlobalFoundries’ 180nm process), and ASAP7 (an open-source 7nm process). These kits provide the necessary resources for designing with a specific process node, making the IC design and fabrication process more efficient and predictable.
 
 ### Simplified RTL2GDS flow
-<img src="https://github.com/user-attachments/assets/2b953944-42ef-43d7-8e70-0578063511b4" width="5000" style="border-radius: 10px;">
+<img src="https://github.com/user-attachments/assets/2b953944-42ef-43d7-8e70-0578063511b4" width="2000" style="border-radius: 10px;">
 
 
 
