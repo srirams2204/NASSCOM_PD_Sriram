@@ -106,11 +106,9 @@ RTL synthesis using Yoysis & abc
 ```bash
 run_synthesis
 ```
-```bash
-run_synthesis
-```
 <img src="https://github.com/user-attachments/assets/9da21fd4-aa5a-4efc-a3ed-a02f87296047" width="800" style="border-radius: 10px">
 
+**Caclculation of Flop Ratio**
 ```bash
 Number of cells = 14876
 Number of D-FF = 1613
@@ -118,6 +116,7 @@ Chip area for module 'picorv32a' = 147712.918400
 Flop Ratio = Number of D-FF / Number of Cells = 0.108
                                               = 10.8 %
 ```
+
 <img src="https://github.com/user-attachments/assets/b4725a11-34dc-47fd-97cb-f117bb869e16" width="800" style="border-radius: 10px">
 
 ## Day - 2 Good Floorplan Vs Bad Floorplan and Introduction to Library Cells)
@@ -185,7 +184,7 @@ magic -T home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.
   <img src="https://github.com/user-attachments/assets/e6085d7f-7804-42b8-ac2f-abbb17c3962a" width="800"></div>
 
 ### Place & Route of Standard Cells
-Place and Route (PnR) is a crucial step in chip design where standard cells and macros are positioned and connected to meet performance, power, and area constraints. Placement involves determining optimal locations for logic cells to minimize wire length and improve timing. Routing then establishes metal interconnections between these cells, ensuring proper signal flow while avoiding congestion and design rule violations. The process includes global and detailed routing, considering factors like power integrity, clock distribution, and signal integrity. Efficient PnR is essential for achieving a well-optimized and manufacturable chip layout.
+**Place and Route (PnR)** is a crucial step in chip design where standard cells and macros are positioned and connected to meet performance, power, and area constraints. Placement involves determining optimal locations for logic cells to minimize wire length and improve timing. Routing then establishes metal interconnections between these cells, ensuring proper signal flow while avoiding congestion and design rule violations. The process includes global and detailed routing, considering factors like power integrity, clock distribution, and signal integrity. Efficient PnR is essential for achieving a well-optimized and manufacturable chip layout.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/1d07664b-4879-42ed-a061-c70c90c98727" width="400"></div>
