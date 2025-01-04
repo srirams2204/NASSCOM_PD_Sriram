@@ -76,13 +76,13 @@ Every software application we use in our everyday lives depends on hardware to f
 - **GDSII File Generation**
 
 ### OpenLane Working Directory
-<img src="https://github.com/user-attachments/assets/297c4fa5-e9d5-474a-9bac-efc54127b230" width="800" style="border-radius: 10px">
+<img src="https://github.com/user-attachments/assets/3ec95137-f37c-4fa3-880f-a379a3ded464" width="800" style="border-radius: 10px">
 
 ### OpenLane Design Directory
-<img src="https://github.com/user-attachments/assets/ed81b898-f228-49fa-8ded-90f8ba3dfce0" width="800" style="border-radius: 10px">
+<img src="https://github.com/user-attachments/assets/0da9b1ae-3201-4621-b65a-8791ef1819ca" width="800" style="border-radius: 10px">
 
 ### Sky130 PDK Directory
-<img src="https://github.com/user-attachments/assets/f12b1451-a305-4e98-a511-4bedfe3b065a" width="800" style="border-radius: 10px">
+<img src="https://github.com/user-attachments/assets/8222465a-70af-43f3-8d70-6f5ec304bae2" width="800" style="border-radius: 10px">
 
 ### OpenLane Docker Initialization
 <img src="https://github.com/user-attachments/assets/b2085592-6ada-40ae-a887-e45f17dbc9b3" width="800" style="border-radius: 10px">
