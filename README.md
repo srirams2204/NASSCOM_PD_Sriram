@@ -205,6 +205,14 @@ magic -T home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.
 <div align="center">
   <img src="https://github.com/user-attachments/assets/7e2c0b78-e266-4906-ac48-12a52ca6b16e" width="800"></div>
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1a95055a-498c-4924-9473-4defc91c3ea4" width="800"></div>
+
+## Day - 2 Design Library Cell using Magic Layout and Ngspice Charcterization
+
+
+
+
 
 
 
