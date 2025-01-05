@@ -209,6 +209,72 @@ magic -T home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.
   <img src="https://github.com/user-attachments/assets/1a95055a-498c-4924-9473-4defc91c3ea4" width="800"></div>
 
 ## Day - 3 Design Library Cells using Magic Layout and Ngspice Characterization
+### IO Placer Configuration in Openlane
+Command to change the IO Pin's Position 
+```bash
+set ::env(IO_PIN_MODE) 2
+run_floorplan
+```
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/621a1761-4175-4bf9-ae1c-4f75ec96e47c" width="800"></div>
+
+### Spice Simulation
+- Parts of Spice Netlist
+- Title Line
+- Component Definitions
+- Node Connections
+- Power and Ground Nodes
+- Simulation Commands
+- Model Definitions
+- Control Statements
+- End Statement
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9c9ebf33-1dbc-43be-8e0a-4d9aabe7beee" width="700"></div>
+
+### Spice Circuit of an Inverter
+Spice netlist/circuit of an inverter
+```bash
+***Inverter Spice Netlist***
+M1 out in vdd vdd pmos W=0.375u L=0.25u
+M2 out in 0 0 nmos W=0.375u L=0.25u
+
+cload out 0 10f
+
+Vdd vdd 0 2.5
+Vin vin 0 2.5
+
+***Simulation Commands***
+.op
+.dc Vin 0 2.5 0.05
+
+***Include Spice model File***
+.LIB "tsmc_025um_model.mod" CMOS_MODELS
+.end
+```
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/57f9a7b1-a1cb-46f0-b270-5732823db5eb" width="800"></div>
+
+Ngspice Simulation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
