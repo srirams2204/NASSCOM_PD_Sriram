@@ -254,9 +254,89 @@ Vin vin 0 2.5
 .end
 ```
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/57f9a7b1-a1cb-46f0-b270-5732823db5eb" width="800"></div>
+  <img src="https://github.com/user-attachments/assets/876a3f1e-83cf-48de-b62b-8cf350dfbac7" width="800"></div>
 
-Ngspice Simulation
+DC Transfer Curve for an inverter with Different PMOS Sizes
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1da12993-e8a0-48e5-a22c-ff06b8602201" width="800"></div>
+
+```bash
+Threshold Voltage of Inverter = 0.5 * Operation Voltage
+                              = 1.25V
+Simulated Threshold Voltage Value = 1.2V
+```
+Git Clone vsdstdcelldesign Directory
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0f9da5d6-983e-4a68-be91-fedacc8b8450" width="800"></div>
+
+View of Inverter Layout Design in Magic 
+
+```bash
+magic -T sky130A.tech sky130_inv.mag
+```
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/21819aa0-9e11-4e4a-929a-aabd7f6899fa" width="800"></div>
+
+Layer Info of Inverter Layout
+- nmos layer
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/820649f0-89f0-444b-ba3b-89aa77f2d8b0" width="800"></div>
+
+- pmos layer
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/512126d3-4d5c-4e47-b90a-eff6895b5338" width="800"></div>
+
+### Spice Extraction of Magic Layout
+Using `extract all` command to extract spice file
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/cd2ac076-ef6f-43a5-800e-c7cf398d0ace" width="800"></div>
+
+Extracted the ngspice fileand parasitic capacitance using `ext2spice cthresh 0 rthresh 0` and `ext2spice`
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/eb747708-0853-49f6-a880-03e6ebf3d5db" width="800"></div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5f04e50c-416f-4ebb-8142-cf2820af3b3d" width="800"></div>
+
+Ngspice Simulation of Inverter
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/520a8657-44cf-4341-b0d3-2850e3d9f4f7" width="800"></div>
+
+### DRC Test 
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/bdc709c4-4d8d-4231-a5e1-63d1dfe4593c" width="800"></div>
+
+Empty Magic Layout
+
+![image](https://github.com/user-attachments/assets/02c8b984-9882-4b8e-806f-5cd307b65c4e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
