@@ -315,7 +315,45 @@ Ngspice Simulation of Inverter
 
 Empty Magic Layout
 
-![image](https://github.com/user-attachments/assets/02c8b984-9882-4b8e-806f-5cd307b65c4e)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/02c8b984-9882-4b8e-806f-5cd307b65c4e" width="800"></div>
+
+DRC Rule Change in `Sky130A.tech` Technology File
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/20bc98e0-038b-4e8f-a062-93d1127e57d8" width="800"></div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ec9aa39f-1acf-4411-acea-c35a89e49f49" width="800"></div>
+
+No Error in DRC Check
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/bbc8e346-db82-4917-9ed6-427c9503d549" width="800"></div>
+
+## Day - 4 Pre-Layout Timing Analysis and Importance of good Clock Tree
+Grid Spacing in Magiv Layout
+
+![image](https://github.com/user-attachments/assets/1a12bd88-b043-4c52-af2a-8e5b15b9eae5)
+
+Writing a `LEF` file from Magic Console
+
+![image](https://github.com/user-attachments/assets/15bdbf0a-87bd-4d75-9f96-6e7da0e15312)
+![image](https://github.com/user-attachments/assets/cf55a0ab-3398-4b11-92e6-90ca36861738)
+![image](https://github.com/user-attachments/assets/1e6662b7-ecfa-4de6-adcc-3bee33653cca)
+
+Adding FAST,SLOW and TYPICAL Library to Config.tcl and running OpenLane
+![image](https://github.com/user-attachments/assets/87d153f8-22b9-4540-95d0-75d6b4160015)
+Adding Custom Cell to OpenLane Design Flow
+![image](https://github.com/user-attachments/assets/0a772a21-eee5-4e99-bd39-031b64bc8019)
+Synthesis Report
+![image](https://github.com/user-attachments/assets/bacf1303-ae4e-4cd0-a029-2d9573a7c1e3)
+
+
+
+
+
+
+
 
 
 
